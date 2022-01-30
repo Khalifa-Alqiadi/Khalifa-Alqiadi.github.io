@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/layout/css/font-awesome.min.css">
+    <link rel="stylesheet" href="layout/css/jquery-ui.css">
+    <link rel="stylesheet" href="layout/css/style.css">
+</head>
+
+<body>
+    <div class="upper-bar">
+        <div class="container">
+            <div class="navbar navbar-expand-lg session-user" id="sessionUser">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <img src="img.png" class="img-thumbnail img-circle" alt="" />
+                    <li class="nav-item dropdown">
+                        <a class="btn btn-default  nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="include/logout.html">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <a href="include/login.html">
+                <span class="login-header pull-right" id="login-header">Login/Signup</span>
+            </a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">YemenUp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="include/jobs.html">All Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="include/companies.html">All Comps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="include/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/include/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="slider" class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="layout/images/39935_5.jpg" class="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="layout/images/45272_3.jpg" class="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="layout/images/62440_Magic Mouse.jpg" class="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="ads" class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="layout/images/39935_5.jpg" class="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="layout/images/45272_3.jpg" class="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="layout/images/62440_Magic Mouse.jpg" class="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="card" class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 ">
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/IRC.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            Supply and installation of solar energy systems for water sources in Abyan and Al Dhale’e governorates - Yemen
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> IRC</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 2 week ago</span></li>
+                            <li>Location: <span> <i class="fa fa-compass"></i> Aden</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 10 Feb 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/UNHCR.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            Provision Of Rental Warehouses And Inventory Management Services
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> UNHCR</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 2 days ago</span></li>
+                            <li>Location: <span> <i class="far fa-compass"></i> Sana'a</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 30 Feb 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/FHD.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            Supply, installation and operation of an integrated pumping unit with solar energy and its accessories
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> FHD</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 1 days ago</span></li>
+                            <li>Location: <span> <i class="far fa-compass"></i> Hodidah</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 10 Feb 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/Al-Ghayth.jpg" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            Integrated in order to develop the work of the organization ERP Add a system
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> Al-Ghayth</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 1 days ago</span></li>
+                            <li>Location: <span> <i class="fa fa-compass"></i> Sana'a</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 20 Feb 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/FAO.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            Procurement Of Two Forklifts - Buy Two Forklifts
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> FAO</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 1 days ago</span></li>
+                            <li>Location: <span> <i class="fa fa-compass"></i> Sana'a</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 09 Feb 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/DRC.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            Implementation Of Water & Solar Projects - Implementation of water and solar energy projects in Lahj and Al Hudaydah
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> DRC</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 3 Week ago</span></li>
+                            <li>Location: <span> <i class="fa fa-compass"></i> Multiple Cities</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 31 Jan 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/DRC.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            Provision Of Medical Insurance Service -
+                            Providing health insurance services to Danish council employees
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> DRC</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 3 Weeks ago</span></li>
+                            <li>Location: <span> <i class="fa fa-compass"></i> Sana'a</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 09 Feb 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a class="fornt" href="include/datile.html">
+                        <img src="layout/images/Care.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">
+                            RFP For H2O Research Consultancy (WASH + Agriculture)
+                        </h5>
+                    </a>
+                    <div class="back">
+                        <ul class='list-items'>
+                            <li>Added By: <span><i class="fa fa-building"></i> Care</span></li>
+                            <li>posted: <span><i class='fa fa-calendar'></i> 1 days ago</span></li>
+                            <li>Location: <span> <i class="fa fa-compass"></i> Sana'a</li>
+                            <li>Deadline: <span> <i class='fa fa-calendar'></i> 09 Feb 2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer Section -->
+    <section id="footer" class="bg-dark">
+        <div class="footer">
+            <h1>Yemen UP</h1>
+            <div class="icons">
+                <img src="layout/images/icon.png" alt="" srcset="">
+                <img src="layout/images/icon1.png" alt="" srcset="">
+                <img src="layout/images/icon2.png" alt="" srcset="">
+                <img src="layout/images/icon3.png" alt="" srcset="">
+            </div>
+            <p>Copyright &copy YemenUP</p>
+        </div>
+    </section>
+    <!-- End Footer Section -->
+
+    <script src="layout/js/jquery-3.5.1.min.js"></script>
+    <script src="layout/js/jquery-ui.min.js"></script>
+    <script src="layout/js/bootstrap.min.js"></script>
+    <script src="layout/js/main.js"></script>
+
+</body>
+</html>
