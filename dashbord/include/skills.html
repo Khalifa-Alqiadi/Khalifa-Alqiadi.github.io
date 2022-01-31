@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="../../layout/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../layout/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../layout/css/jquery-ui.css">
+    <link rel="stylesheet" href="../layout/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Khalifa Alqiadi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../index.html">Visit Jobs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- start setting box -->
+
+    <div class="setting-box">
+        <div class="toggle-setting">
+            <i class="fa fa-gear setting-i"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <img src="../../layout/images/img.PNG" alt="" class="img-thumbnail circle">
+                <h4>Khalifa Alqiadi</h4>
+                <hr>
+                <ul class="list-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="qualification.html">Qualification</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- end setting box -->
+
+    <!-- Start Skills Page  -->
+    <h1 class="text-center">Manage Skills</h1>
+    <div class="container exper">
+        <div class="table-responsive">
+            <table class="main-table manage-members text-center table table-bordered">
+                <tr>
+                    <td>#ID</td>
+                    <td>Skill Name</td>
+                    <td>Description</td>
+                    <td>Level Skill</td>
+                    <td>Control</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Fornt End</td>
+                    <td>I'm Web Developer</td>
+                    <td>Full</td>
+                    <td>
+                        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal"><i
+                                class="fa fa-edit"></i> Edit</a>
+                        <a href="#" class="btn btn-danger confirm"> <i class="fa fa-close"></i> Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fornt End</td>
+                    <td>I'm Web Developer</td>
+                    <td>Full</td>
+                    <td>
+                        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal"><i
+                                class="fa fa-edit"></i> Edit</a>
+                        <a href="#" class="btn btn-danger confirm"> <i class="fa fa-close"></i> Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Fornt End</td>
+                    <td>I'm Web Developer</td>
+                    <td>Full</td>
+                    <td>
+                        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal"><i
+                                class="fa fa-edit"></i> Edit</a>
+                        <a href="#" class="btn btn-danger confirm"> <i class="fa fa-close"></i> Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Fornt End</td>
+                    <td>I'm Web Developer</td>
+                    <td>Full</td>
+                    <td>
+                        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal"><i
+                                class="fa fa-edit"></i> Edit</a>
+                        <a href="#" class="btn btn-danger confirm"> <i class="fa fa-close"></i> Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Fornt End</td>
+                    <td>I'm Web Developer</td>
+                    <td>Full</td>
+                    <td>
+                        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal"><i
+                                class="fa fa-edit"></i> Edit</a>
+                        <a href="#" class="btn btn-danger confirm"> <i class="fa fa-close"></i> Delete</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+            class="fa fa-plus"></i> Add New</a>
+    </div>
+    
+
+    <!-- Modal Add New-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Skill</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="skills.html" method="post">
+                        <div class="mb-3 row">
+                            <label for="Experience" class="col-sm-3 col-form-label">Skill Name</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="experience" placeholder="Enter Your Skill" required>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="years" class="col-sm-3 col-form-label">Description</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="experience" placeholder="Enter Description" required>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="company" class="col-sm-3 col-form-label">Level Skill</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="company" placeholder="Enter Level" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Edit-->
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Edit Skill</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="skills.html" method="post">
+                        <div class="mb-3 row">
+                            <label for="Experience" class="col-sm-3 col-form-label">Skill Name</label>
+                            <div class="col-sm-9">
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="skill" 
+                                    placeholder="Enter Your Skill" 
+                                    required
+                                    value="Front End">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="years" class="col-sm-3 col-form-label">Description</label>
+                            <div class="col-sm-9">
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="description" 
+                                    placeholder="Enter Description" 
+                                    required
+                                    value="I'm Web Developer">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="company" class="col-sm-3 col-form-label">Level Skill</label>
+                            <div class="col-sm-9">
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="level" 
+                                    placeholder="Enter Level" 
+                                    required
+                                    value="Full">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Update</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Skills Page -->
+
+    <script src="../../layout/js/jquery-3.5.1.min.js"></script>
+    <script src="../../layout/js/jquery-ui.min.js"></script>
+    <script src="../../layout/js/bootstrap.min.js"></script>
+    <script src="../layout/js/app.js"></script>
+</body>
+
+</html>

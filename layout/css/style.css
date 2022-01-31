@@ -60,6 +60,10 @@ a{
     color: #db5872;
 }
 
+.login-page{
+    min-height: 100vh;
+}
+
 /* End Main Rulez */
 
 /* Start bootstrap Navbar */
