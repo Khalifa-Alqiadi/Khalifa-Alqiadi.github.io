@@ -25,7 +25,8 @@
 
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../dashbord/index.html">My Profile</a></li>
+                            <li><a class="dropdown-item" href="../dashbord/index.html">My Dashbord</a></li>
+                            <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
                             <li><a class="dropdown-item" href="logout.html">Logout</a></li>
                         </ul>
                     </li>
@@ -84,12 +85,12 @@
             </select>
             <select name="" id="cit" class="form-control cit">
                 <option value="Aden">Aden</option>
-                <option value="Sana'a">Sana'a</option>
+                <option value="Sana">Sana'a</option>
                 <option value="Hodidah">Hodidah</option>
             </select>
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 ">
-            <div class="col">
+            <div class="col IRC Aden">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/IRC.png" class="card-img-top" alt="...">
@@ -107,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col UNHCR Sana">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/UNHCR.png" class="card-img-top" alt="...">
@@ -125,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col FHD Hodidah">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/FHD.jpg" class="card-img-top" alt="...">
@@ -143,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col Al-Ghayth Sana">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/Al-Ghayth.jpg" class="card-img-top" alt="...">
@@ -161,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col FAO Sana">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/FAO.png" class="card-img-top" alt="...">
@@ -179,7 +180,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col DRC">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/DRC.png" class="card-img-top" alt="...">
@@ -197,7 +198,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col DRC Sana">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/DRC.png" class="card-img-top" alt="...">
@@ -216,7 +217,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col Care Sana">
                 <div class="card">
                     <a class="fornt" href="datile.html">
                         <img src="../layout/images/Care.png" class="card-img-top" alt="...">
@@ -298,6 +299,50 @@
     <script src="../layout/js/jquery-ui.min.js"></script>
     <script src="../layout/js/bootstrap.min.js"></script>
     <script src="../layout/js/main.js"></script>
+    <script>
+        $(document).ready(function (){
+            $("#select").change(function (){
+                var name = $("#select").val();
+                if(name == 'company'){
+                    $("#comp").show();
+                    var comp = $("#comp").val();
+                    $(".col").hide();
+                    $("."+comp).show();
+                    company();
+                    $("#cit").hide();
+                }
+                else if(name == 'city'){
+                    $("#cit").show();
+                    var cit = $("#cit").val();
+                    $(".col").hide();
+                    $("."+cit).show();
+                    city();
+                    $("#comp").hide();
+                }
+                else{
+                    $(".col").show();
+                    $("#comp").hide();
+                    $("#cit").hide();
+                }
+            });
+            
+        })
+        function company(){
+            $("#comp").change(function (){
+                var comp = $("#comp").val();
+                $(".col").hide();
+                $("."+comp).show();
+            })
+        }
+
+        function city(){
+            $("#cit").change(function (){
+                var cit = $("#cit").val();
+                $(".col").hide();
+                $("."+cit).show();
+            })
+        }
+    </script>
 
 </body>
 </html>

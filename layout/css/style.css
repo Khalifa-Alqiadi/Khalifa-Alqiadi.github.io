@@ -723,6 +723,253 @@ form .col-sm-8.error p{
 
 /* !End Contact Page */
 
+/* ! Start Profile Page */
+.profile{
+    width: 75%;
+    box-shadow: 0 0 10px #CCC;
+}
+.profile-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #66676C;
+    padding: 0;
+}
+
+.profile-left .card-header{
+    background-color: #EE9028;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 330px;
+    border-bottom: 12px solid #221c1c;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-left .card-header img{
+    width: 225px;
+    border-radius: 50%;
+    border: 12px solid #66676C;
+}
+
+.profile-left .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-left .card-body .card-title h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+.profile-left .card-footer{
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .buttom{
+    background-color: #EE9028;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.profile .buttom .info{
+    border-bottom-left-radius: 80px;
+    background-color: #66676C;
+    width: 100%;
+    padding: 2px 30px;
+    box-shadow: 0 0 3px #CCC;
+    border: 1px solid #CCC;
+}
+
+.profile .buttom .info h4{
+    font-size: 17px;
+}
+
+.profile-left .card-footer .card{
+    border: none;
+    margin-bottom: 20px;
+}
+
+.profile-left .card-footer .card p{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.profile-left .card-footer .card .fa{
+    font-size: 19px;
+    color: #ad6513;
+}
+
+.profile-left .card-footer .raing{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.profile-left .card-footer .raing-info{
+    height: 5px;
+    background-color: #CCC;
+    width: 50%;
+    margin-left: 4px;
+}
+
+.profile-left .card-footer .stat{
+    background-color: #EE9028;
+    height: 100%;
+}
+.profile-left .card-footer .raing1{
+    width: 70%;
+}
+.profile-left .card-footer .raing2{
+    width: 50%;
+}
+.profile-left .card-footer .raing3{
+    width: 80%;
+}
+.profile-left .card-footer .raing4{
+    width: 75%;
+}
+.profile-left .card-footer .raing5{
+    width: 90%;
+}
+
+.profile-left .dawnload .buttom{
+    margin-top: 20px;
+}
+
+.profile-left .dawnload .buttom a{
+    color: white;
+}
+
+.profile-right{
+    margin: 0;
+    position: relative;
+}
+.profile-right::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    bottom: 0;
+    right: 0;
+    background-color: #EE9028;
+    z-index: 1;
+    border-top-left-radius: 160px;
+}
+.profile-right .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    border: aliceblue;
+}
+.profile-right .card>*{
+    width: 85%;
+    text-align: left;
+}
+
+.profile-right .card .buttom{
+    width: 50%;
+    text-align: center;
+}
+.profile-right .card .info{
+    box-shadow: 0 0 3px #66676C;
+    border: 1px solid #66676C;
+    background-color: white;
+}
+
+.profile-right .steps-learning{
+    position: relative;
+    padding: 0 10px;
+}
+
+.profile-right .steps-learning::after{
+    content: "";
+    position: absolute;
+    height: 77%;
+    width: 1px;
+    left: 0;
+    top: 5px;
+    border-left: 1px solid #CCC;
+}
+
+.profile-right .all-steps{
+    position: relative;
+}
+
+.profile-right .all-steps::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: -17px;
+    background-color: #EE9028;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.profile-right .all-steps h4{
+    margin: 0;
+    margin-bottom: -6px;
+}
+.profile-right .all-steps span{
+    font-size: 12px;
+    color: #EE9028;
+    margin-bottom: 10px;
+}
+
+.profile-right .interests .all-rating{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: #66676C;
+    align-items: center;
+}
+
+.profile-right .interests .rating{
+    width: 100%;
+}
+
+.profile-right .interests .raing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-right .interests .raing-info{
+    background-color: #66676C;
+    height: 5px;
+    width: 50%;
+}
+
+.profile-right .interests .stat{
+    width: 70%;
+    background-color: #EE9028;
+    height: 100%;
+}
+
+@media(max-width: 767px){
+    .profile-right .card .buttom{
+        width: 100%;
+    }
+}
+/* ! End Profile Page */
+
 /* Start Footer Section */
 
 .footer{
