@@ -497,6 +497,7 @@ a{
 @media (max-width:768px){
     #slider{
         height: 30vh;
+        margin-top: 50%;
     }
     .carousel-item .card h5{
         font-size: 13px;
