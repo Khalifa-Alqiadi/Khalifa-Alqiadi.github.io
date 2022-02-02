@@ -4,6 +4,8 @@ document.querySelector(".toggle-setting .fa-gear").onclick = function(){
 
     this.classList.toggle("fa-spin");
     document.querySelector(".setting-box").classList.toggle("open");
+    document.querySelector(".home-stats").classList.toggle("open");
+    document.querySelector(".latest").classList.toggle("open");
 }
 
 

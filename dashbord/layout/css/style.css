@@ -65,8 +65,8 @@ ul{
     width: 250px;
     z-index: 1000;
     min-height: 100vh;
-    transition: .3s;
     border: 1px solid #EEE;
+    transition: all .3s ease-in-out;
 }
 
 .setting-box.open{
@@ -143,6 +143,11 @@ ul{
     color: #FFF;
     position: relative;
     overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+.home-stats.open{
+    margin-left: 250px;
+    width: 70%;
 }
 
 .home-stats .stat i{
@@ -155,6 +160,11 @@ ul{
 .home-stats .stat .info{
     right: -62px;
     position: relative;
+    transition: all .3s ease-in-out;
+}
+
+.home-stats.open .stat .info{
+    right: -32px;
 }
 
 .home-stats .st-experi{
@@ -187,6 +197,13 @@ ul{
 
 .latest{
     margin-top: 30px;
+    transition: all 1s ease-in-out;
+}
+
+.latest.open{
+    margin-left: 250px;
+    width: 70%;
+    transition: all .3s ease-in-out;
 }
 
 .latest .row{
@@ -235,42 +252,6 @@ ul{
     text-decoration: none;
 }
 
-.latest .comment-box{
-    margin: 0;
-}
-
-.latest .comment-box .member-n,
-.latest .comment-box .comment-c{
-    float: left;
-}
-
-.latest .comment-box .member-n{
-    margin-right: 20px;
-    text-align: center;
-    width: 80px;
-    position: relative;
-    top: 9px;
-}
-
-.latest .comment-box .comment-c{
-    width: calc(100% - 100px);
-    padding: 15px;
-    background-color: #ececec;
-    position: relative;
-}
-
-.latest .comment-box .comment-c:before{
-    content: "";
-    display: block;
-    position: absolute;
-    left: -26px;
-    top: 7px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent #ececec transparent transparent;
-    border-width: 13px;
-}
 
 /* End Dashboard Page*/
 
@@ -281,7 +262,13 @@ ul{
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
+    transition: all .3s ease-in-out;
+}
+
+.exper.open{
+    width: 70vw;
+    margin-left: 250px;
 }
 
 .exper .btn-sm{
