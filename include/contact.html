@@ -74,27 +74,36 @@
 
     <section id="contact">
         <div class="container contact">
-            <form id="form" action="https://formspree.io/f/mqknekle" method="POST" novalidate>
-                <div class="col-sm-8">
-                    <label for="">Name</label>
-                    <input class="form-control" type="text" id="name" name="username" placeholder="Enter Your Name" required>
-                    <p></p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <form id="form" action="https://formspree.io/f/mqknekle" method="POST" novalidate>
+                        <div class="col-sm-8">
+                            <label for="">Name</label>
+                            <input class="form-control" type="text" id="name" name="username" placeholder="Enter Your Name" required>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="">Email</label>
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="message">message</label>
+                            <textarea class="form-control" name="message" id="message"
+                             placeholder="Enter Your Message" required></textarea>
+                            <p></p>
+                        </div>
+                        <div class="">
+                            <button class="btn btn-primary" type="submit" id="my-form-button" class="cat">send</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-sm-8">
-                    <label for="">Email</label>
-                    <input class="form-control" type="email" id="email" name="email" placeholder="Enter Your Email" required>
-                    <p></p>
+                
+                <div class="col-sm-6">
+                    <iframe class=" img-thumbnail"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1645.6281898747009!2d44.202578771720546!3d15.359504483050888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603dbf3c301558d%3A0x8c342449a52eb0a3!2z2YXYrdmD2YXYqSDYp9iz2KrYptmG2KfZgSDYo9mF2KfZhtipINin2YTYudin2LXZhdip!5e1!3m2!1sar!2s!4v1643826353990!5m2!1sar!2s"  allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="col-sm-8">
-                    <label for="message">message</label>
-                    <textarea class="form-control" name="message" id="message"
-                     placeholder="Enter Your Message" required></textarea>
-                    <p></p>
-                </div>
-                <div class="">
-                    <button class="btn btn-primary" type="submit" id="my-form-button" class="cat">send</button>
-                </div>
-            </form>
+            </div>
         </div>
     </section>
 

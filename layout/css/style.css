@@ -64,12 +64,46 @@ a{
     min-height: 100vh;
 }
 
+#slider,
+#profile,
+#all-comp,
+#about,
+#contact,
+.login-page,
+#datile{
+    margin-top: 10%;
+}
+
+@media(max-width:567px){
+    #slider,
+    #profile,
+    #all-comp,
+    #about,
+    #contact,
+    .login-page,
+    #datile{
+        margin-top: 20%;
+    }
+}
+
+
 /* End Main Rulez */
 
 /* Start bootstrap Navbar */
 
+.navbar,
+.upper-bar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.upper-bar{
+    top: 0;
+}
+
 .navbar{
-    margin-bottom: 14px;
+    top: 40px;
 }
 
 .navbar .navbar-collapse{
@@ -162,7 +196,7 @@ a{
 
 #slider, #ads{
     display: flex;
-    height: 50vh;
+    height: 65vh;
     padding: 10px;
     justify-content: center;
 }
@@ -182,6 +216,11 @@ a{
     height: 100%;
 }
 
+.carousel-item .card{
+    width: 80%;
+    box-shadow: 0 0 2px white;
+}
+
 .carousel-inner img{
     width: 90vw;
     height: 100%;
@@ -190,6 +229,33 @@ a{
 .carousel-control-next, .carousel-control-prev{
     background-color: transparent;
     border: 0;    
+}
+
+#ads .row{
+    background-image: url("../images/r4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    
+}
+
+#ads .row .card{
+    border: none;
+    box-shadow: none;
+    
+}
+#ads .row .card .card-body{
+    display: flex;
+    box-shadow: 0 0 5px #CCC;
+    border: 1px solid #CCC;
+}
+#ads .row .card .card-body :where(.card-header, .card-footer){
+    border: none;
+    
 }
 
 #card .col{
@@ -230,7 +296,7 @@ a{
 #card .fornt img{
     width: 70%;
     padding: 10px;
-    max-height: 140px;
+    max-height: 160px;
     height: 270px;
     border-radius: 31%;
     border: 1px solid #e3dfdf;
@@ -289,6 +355,31 @@ a{
 
 .col.hide{
     display: none;
+}
+@media(max-width:567px){
+    #slider{
+        height: 40vh;
+    }
+    .carousel-item .card{
+        width: 100%;
+    }
+    .carousel-item .card h5{
+        font-size: 15px;
+    }
+    #ads{
+        min-height: 100vh;
+    }
+    #card .row>*{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #card .card{
+        width: 60%;
+    }
+    #card .fornt img{
+        height: 100%;
+    }
 }
 
 /* End Card Section */
@@ -720,6 +811,14 @@ form .col-sm-8.error p{
     
 }
 
+#contact{
+    min-height: 100vh;
+}
+
+#contact iframe{
+    width: 100%;
+    height: 100%;
+}
 
 /* !End Contact Page */
 
