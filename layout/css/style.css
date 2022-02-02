@@ -491,6 +491,9 @@ a{
 }
 
 @media (max-width:768px){
+    .carousel-item .card h5{
+        font-size: 13px;
+    }
     .comp .row{
         width: 100%;
     }
