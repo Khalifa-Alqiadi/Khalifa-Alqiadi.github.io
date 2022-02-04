@@ -13,34 +13,9 @@
 </head>
 
 <body>
-    <!-- Start Upper Bar -->
-    <div class="upper-bar">
-        <div class="container">
-            <div class="navbar navbar-expand-lg session-user" id="sessionUser">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <img src="img.png" class="img-thumbnail img-circle" alt="" />
-                    <li class="nav-item dropdown">
-                        <a class="btn btn-default  nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../dashbord/index.html">My Dashbord</a></li>
-                            <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
-                            <li><a class="dropdown-item" href="logout.html">Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <a href="login.html">
-                <span class="login-header pull-right" id="login-header">Login/Signup</span>
-            </a>
-        </div>
-    </div>
-    <!-- End Upper Bar -->
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <div class="container-fluid">
+    <nav class="navbar nav-me navbar-expand-lg navbar-light bg-dark fixed">
+        <div class="container">
             <a class="navbar-brand" href="#">YemenUp</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -49,6 +24,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                     </li>
@@ -62,7 +38,24 @@
                         <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            Login/Signup
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <img src="../layout/images/img.PNG" class="img-thumbnail img-circle" alt="" />
+                        <a class="btn btn-default  nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            khalifa alqiadi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../dashbord/index.html">My Dashbord</a></li>
+                            <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+                            <li><a class="dropdown-item" href="logout.html">Logout</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -73,7 +66,7 @@
     <!-- Start contact Section -->
 
     <section id="contact">
-        <div class="container contact">
+        <div class="container contact margin-top">
             <div class="row">
                 <div class="col-sm-6">
                     <form id="form" action="https://formspree.io/f/mqknekle" method="POST" novalidate>
