@@ -1,0 +1,79 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Noto Kufi Arabic", sans-serif !important;
+}
+/* 
+.video-icon{
+  right: auto;
+  left: -30px;
+} */
+
+h1 {
+  font-size: 40px !important;
+}
+
+.video-icon{
+  left: auto;
+}
+
+.about_slide_content {
+  align-items: start !important;
+}
+.accordion-button::after {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  h1 {
+    font-size: 28px !important;
+    line-height: 1.4 !important;
+  }
+  .hero_shape {
+    top: 9%;
+    left: -130%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  h1 {
+    font-size: 30px !important;
+    line-height: 1.4 !important;
+  }
+  .hero_content {
+    margin-top: 50px !important;
+  }
+  .hero_shape {
+    top: 6%;
+    left: -130%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .hero-thumb {
+    right: -5px;
+    top: 90px;
+  }
+  .hero_shape {
+    top: 7%;
+    left: -750px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-thumb {
+    right: -5px;
+    top: 50px;
+  }
+  .hero_shape {
+    top: 6%;
+    left: -500px;
+  }
+}

@@ -1,0 +1,70 @@
+/* Regular Weight */
+@font-face {
+  font-family: "PingAr";
+  src: url("../../fonts/PingAR/PingAR+LT-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Light Weight */
+@font-face {
+  font-family: "PingAr";
+  src: url("../../fonts/PingAR/PingAR+LT-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Medium Weight */
+@font-face {
+  font-family: "PingAr";
+  src: url("../../fonts/PingAR/PingAR+LT-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Bold Weight */
+@font-face {
+  font-family: "PingAr";
+  src: url("../../fonts/PingAR/PingAR+LT-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Extra Light Weight */
+@font-face {
+  font-family: "PingAr";
+  src: url("../../fonts/PingAR/PingAR+LT-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Black Weight */
+@font-face {
+  font-family: "PingAr";
+  src: url("../../fonts/PingAR/PingAR+LT-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Heavy Weight */
+@font-face {
+  font-family: "PingAr";
+  src: url("../../fonts/PingAR/PingAR+LT-Heavy.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Italic Styles (if you have italic variants, you would add those here) */
+/* @font-face {
+  font-family: "PingAr";
+  src: url("./fonts/PingAR/PingAR+LT-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic; 
+} */
+
+@font-face {
+  font-family: "PingAr";
+  src: url("./fonts/PingAR/PingAR+LT-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
